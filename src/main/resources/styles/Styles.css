@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: white;
+}
+
+HBox > .button, VBox > .button {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+HBox > .button.active, VBox > .button.active {
+    -fx-background-color: #2674fd18;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: CENTER_LEFT;
+}
